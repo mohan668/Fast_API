@@ -1,5 +1,3 @@
-
-```markdown
 # Real-Time Object Detection with YOLOv8 and FastAPI
 
 ## Project Overview
