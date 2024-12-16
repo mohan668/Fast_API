@@ -94,12 +94,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Key Sections of the README:
 
-1. **Project Overview**: Describes the purpose of the project and the core technologies used (YOLOv8 and FastAPI).
-2. **Project Structure**: Lists the directory structure to explain where the various files should be placed.
-3. **Installation**: Instructions for installing required Python packages either through `requirements.txt` or manually.
-4. **Setup and Run**: Step-by-step guide for setting up and running the application.
-5. **YOLOv8 Model**: Explanation of how to use a custom YOLOv8 model with the project.
-6. **Troubleshooting**: Common errors users might encounter and how to solve them.
-7. **License**: Project license information.
-
-This `README.md` provides everything a user needs to understand and get the project up and running, including installation steps, project structure, and how to run the application. Let me know if you need any further modifications!
+1. Project Overview: Describes the purpose of the project and the core technologies used (YOLOv8 and FastAPI).
+2. Project Structure: Lists the directory structure to explain where the various files should be placed.
+3. Installation: Instructions for installing required Python packages either through `requirements.txt` or manually.
+4. Setup and Run: Step-by-step guide for setting up and running the application.
+5. YOLOv8 Model: Explanation of how to use a custom YOLOv8 model with the project.
+6. Troubleshooting**: Common errors users might encounter and how to solve them.
+7. License: Project license information.
