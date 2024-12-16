@@ -1,5 +1,5 @@
-Here is the complete `README.md` file for your project:
 
+```markdown
 # Real-Time Object Detection with YOLOv8 and FastAPI
 
 ## Project Overview
@@ -12,14 +12,14 @@ This project implements a real-time object detection application using YOLOv8 (U
 - **Easy Setup**: Simple installation process with dependencies listed in a `requirements.txt` file.
 
 ## Project Structure
-
+```
 your_project/
 ├── static/
 │   └── index.html          # Static HTML page to view the real-time stream
 ├── video_app.py            # FastAPI backend script
 ├── best.pt                 # YOLOv8 custom-trained model weights (replace with your model)
 └── requirements.txt        # List of required Python packages
-
+```
 
 ### Files:
 1. **`video_app.py`**: This is the FastAPI application script that contains the backend logic for handling real-time video streaming and object detection.
@@ -33,21 +33,23 @@ Before running the project, you need to install the required packages. You can i
 ### 1. Install the Dependencies:
 Create a virtual environment (optional but recommended), then install the dependencies:
 
-
+```bash
 pip install -r requirements.txt
-
+```
 
 ### 2. `requirements.txt` contents:
-
+```
 fastapi
 opencv-python
 uvicorn
 ultralytics
-
+```
 
 If you don't want to use a `requirements.txt` file, you can manually install the dependencies using `pip`:
 
+```bash
 pip install fastapi opencv-python uvicorn ultralytics
+```
 
 ## Setup and Run
 
@@ -58,9 +60,9 @@ Ensure that the `index.html`, `video_app.py`, and `best.pt` files are in the cor
 
 To start the FastAPI server, run the following command from your project directory:
 
-
+```bash
 uvicorn video_app:app --reload
-
+```
 
 This will start the FastAPI server at `http://127.0.0.1:8000`.
 
